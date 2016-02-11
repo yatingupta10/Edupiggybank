@@ -1,0 +1,148 @@
+
+body {
+  padding-top: 0px;
+  background-color: #5F636E;
+}
+
+.em-text{
+	color:#1caa98;
+}
+/*----- for front page --------> */
+
+#color_text{
+	color : #50017B;
+}
+
+#color-back{
+	background: #50017B;
+}
+
+#con-text{
+	font-weight: bold;
+	font-size: 17px;
+	color: #fff ;
+}
+
+#con-text2{
+	font-weight: bold;
+	font-size: 60px;
+	color: #fff ;
+	text-align: center;
+}
+
+#margin{
+	margin-top: 15px ;
+}
+
+#margin2{
+	margin-top: 0px;
+}
+
+#margin-bot{
+	margin-top: 30px;
+	margin-bottom: 10px ;
+}
+
+#margin_txt{
+	margin-top: 10px ;
+	margin-bottom: 20px;
+}
+
+#onclick_event{
+  
+}
+
+/*--------------------end---------------------*/
+/*------------------------------------------------------- Quiz page --------------------------------------------------------*/
+/*-----------------------Initial Text-------------*/
+#mydiv{
+  padding-top: 200px;
+  color:#fff;
+  line-height: 10px;
+}
+/*------------------------end----------------------*/
+#q1{
+/*  background-color: #0088FF;*/
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+.next{
+  float:right;
+}
+#q2{
+/*  background-color: #00FFFF;*/
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+#q3{
+/*  background-color: #0000FF;*/
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+#q4{
+  background-color: #580058;
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+#q5{
+  background-color: #51ADA7;
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+#q6{
+  background-color: #580058;
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+#q7{
+  background-color: #51ADA7;
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+#q8{
+  background-color: #580058;
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+#q9{
+  background-color: #51ADA7;
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+#q10{
+  background-color: #580058;
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 30px;
+  opacity: 0.0;
+}
+#q11{
+  opacity: 0.0;
+}
+#final{
+  opacity: 0.0;
+  text-align: center;
+}
+
+#quiz_submit_button{
+  margin-bottom: 20px;
+}
+
