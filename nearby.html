@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8" />
+  <title>Saga:Nearby Places</title>
+  <link rel="stylesheet" type="text/css" href="css/nearby.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+
+  
+	<div class="container">
+		<center><h1>MY Passbook</h1></center>
+	</div>
+  <div class="row">
+
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <h2 style="padding:0 20px">S.No</h2>
+    <ul>
+    {% for place in places %}
+      <li>{{place['name']}}</li>
+    {% endfor %}
+    </ul>
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <h2 style="padding:0 20px">Description</h2>
+    <ul>
+    {% for place in places %}
+      <li>{{place['types'][0]}}</li>
+    {% endfor %}
+    </ul>
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <h2 style="padding:0 20px">Date/Time</h2>
+    <ul>
+    {% for place in places %}
+      <li>{{place['types'][0]}}</li>
+    {% endfor %}
+    </ul>
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <h2 style="padding:0 20px">Amount</h2>
+    <ul>
+    {% for place in places %}
+      <li>{{place['types'][0]}}</li>
+    {% endfor %}
+    </ul>
+    </div>
+  </ul>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
