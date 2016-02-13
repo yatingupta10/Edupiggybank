@@ -34,4 +34,8 @@ def transaction_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'piggybank/transaction_edit.html', {'form': form})
+def login(request):
+    return render(request,'piggybank/login.html',{})
+def quiz(request):
+    return render(request,'piggybank/quiz.html',{})
 
