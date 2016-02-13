@@ -41,7 +41,7 @@
                     <li><a href="#"><i class="fa fa-envelope-o"></i> Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">
+                    <li><a id='loginbutton'>
                     <span class="glyphicon glyphicon-log-in"></span> Login</a>
                     </li>
                 </ul>
@@ -69,9 +69,50 @@
                 </div>
             
             </div>
-            </div>
+            
+            
+        
+        
+        </div>
     
     </header>
+    
+    <div class="container">
+        <h2>Personal Banking</h2>
+        <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Name</label>                        
+                        <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="description" class="col-sm-2 control-label">Text</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="feedback" name="text" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="amount" class="col-sm-2 control-label">Transaction</label>
+                        <div class="col-sm-10">
+                        <input type="number" class="form-control" id="transaction" name="transaction" placeholder="Transaction">
+                        </div>
+                    </div>
+            
+                     <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+
+        
+    
+        
+    
+    
+    </div>
     
     </body>
     
@@ -115,12 +156,7 @@
             </div>
     </footer>
     
-  <script src ="js/bootstrap.min.js"></script>
+  <!--  <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
-    
-    <script>
-        
-       
-    </script>
-
+    <script src="js/bootstrap.js"></script>  -->
 </html>
