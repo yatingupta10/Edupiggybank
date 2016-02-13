@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,11 +10,11 @@
          content must come *after* these tags -->
     <title>Edu PiggyBank</title>
     
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap-social.css" rel="stylesheet">
-    <link href="mystyles.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-social.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mystyles.css' %}">
     </head>
     
 <body>
@@ -27,7 +28,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="home.html"><img src="images/piggy.png" height=30 width=41></a>
+                    <a class="navbar-brand" href="home.html"><img src="../static/images/piggy.png" height=30 width=41></a>
                 </div>
 
                  <div id="navbar" class="navbar-collapse collapse">
@@ -64,7 +65,7 @@
                 </div>
                 
             <div class="col-sm-3">
-                <img src="images/piggy.png">
+                <img src="../static/images/piggy.png">
                 </div>
             
             </div>
