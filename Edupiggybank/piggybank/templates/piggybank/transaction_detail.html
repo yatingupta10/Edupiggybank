@@ -1,0 +1,8 @@
+    <div class="post">
+            <div class="date">
+                {{ passbook.published_date }}
+            </div>
+        <a class="btn btn-default" href="{% url 'transaction_edit' pk=passbook.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
+        <h1>{{ passbook.name }}</h1>
+        <p>{{ passbook.text|linebreaks }}</p>
+    </div>
