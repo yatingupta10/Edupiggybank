@@ -38,4 +38,6 @@ def login(request):
     return render(request,'piggybank/login.html',{})
 def quiz(request):
     return render(request,'piggybank/quiz.html',{})
+def result(request):
+    return render(request,'piggybank/result.html',{})
 
