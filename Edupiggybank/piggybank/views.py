@@ -9,7 +9,10 @@ def index(request):
     return render(request, 'piggybank/index.html', {})
 def mypassbook(request):
     entries = Passbook.objects.all()
-    return render(request, 'piggybank/mypassbook.html',{'entries':entries})
+    balance = 0
+    for entry in entries:
+        balance+=entry.transaction
+    return render(request, 'piggybank/mypassbook.html',{'entries':entries,'balance':balance})
 def transaction(request):
     if request.method == "POST":
         form = PassbookForm(request.POST)#doubt
